@@ -1,0 +1,16 @@
+Dear $NAME$,
+
+Here is your mobile phone bill for the month of $MONTH$
+
+If your bill has exceeded the limit (in case of official calls), please send a mail to TWI Payroll (twipayroll@thoughtworks.com) marking your PM (within next 5 working days), so that the amount does not get deducted from your salary.
+
+Emp ID: $EMPNUMBER$
+Name: $NAME$
+Mobile Number: $NUMBER$
+SubTotal: $SUBTOTAL$
+Tax: $TAX$
+Total: $TOTAL$
+Eligibility: $ELIGIBILITY$
+Excess: $EXCESS$
+
+File Attached: $PDF$

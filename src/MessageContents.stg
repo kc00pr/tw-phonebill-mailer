@@ -1,0 +1,35 @@
+Dear $phoneBill.employeeName$,
+<br/><br/>
+Your mobile phone bill for the month of $phoneBill.month$<br/><br/>
+
+If your bill has exceeded the limit <b>(in case of official calls)</b>, please send a mail to
+<a href="mailto:twipayroll@thoughtworks.com">TWI Payroll</a> (<a href="mailto:twipayroll@thoughtworks.com">twipayroll@thoughtworks.com</a>)
+marking your PM (within next 5 working days), so that the amount does not get deducted from your salary.<br/><br/>
+
+<table border="1" bordercolor="#ffffff" cellspacing="0" cellpadding="0" width="100%">
+
+    <tr bgcolor="#999999" align="center">
+        <td>Emp ID</td>
+        <td>Name</td>
+        <td>Mobile Number</td>
+        <td>SubTotal</td>
+        <td>Tax</td>
+        <td>Total</td>
+        <td>Eligibility</td>
+        <td>Excess</td>
+    </tr>
+    <tr>
+        <td>$phoneBill.employeeID$</td>
+        <td>$phoneBill.employeeName$</td>
+        <td>$phoneBill.phoneNumber$</td>
+        <td>$phoneBill.usage$</td>
+        <td>$phoneBill.tax$</td>
+        <td>$phoneBill.amountTotal$</td>
+        <td>$phoneBill.amountEligible$</td>
+        <td>$phoneBill.amountExcess$</td>
+    </tr>
+</table>
+
+<br/><br/>File Attached: = $phoneBill.pdfFileName$.pdf
+</body>
+</html>
